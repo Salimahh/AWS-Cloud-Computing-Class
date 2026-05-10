@@ -1,0 +1,17 @@
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "IAMUser",
+    "arn": "arn:aws:iam::123456789:user/developer1",
+    "userName": "developer1"
+  },
+  "eventTime": "2024-09-15T14:32:01Z",
+  "eventSource": "s3.amazonaws.com",
+  "eventName": "DeleteBucket",
+  "awsRegion": "eu-west-1",
+  "sourceIPAddress": "197.210.52.8",
+  "requestParameters": {
+    "bucketName": "fintech-customer-data"
+  },
+  "responseElements": null
+}

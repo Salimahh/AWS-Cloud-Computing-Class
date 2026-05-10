@@ -1,0 +1,17 @@
+{
+	"Veersion": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "DenyNonApprovedRegions",
+			"Effect": "Deny",
+			"Action": "*",
+			"Resource": "*",
+			"Condition": {
+			"StringNotIn":{
+				"aws:RequestedRegion": [
+				"eu-west-1","af-south-1"]
+			}
+			}
+		}
+	]
+}
